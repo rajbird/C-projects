@@ -1,0 +1,23 @@
+****************************************************
+Rajbir Deol
+Linked list - tracker
+30/03/16
+****************************************************
+
+
+************
+Compilation
+************
+Makefile makes executable called tracker
+
+******
+Usage
+******
+
+Enter file name in command line
+
+*****************
+Known Limitations
+*****************
+
+Errors in data file will cause segfualts. 
