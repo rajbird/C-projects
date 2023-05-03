@@ -1,0 +1,32 @@
+SHELL PID 14041
+Hello there! This is test 5
+Child (14042) exitted -- success (0)
+ 14:37:08 up 67 days,  1:25, 22 users,  load average: 2.63, 2.39, 1.93
+Child (14043) exitted -- success (0)
+/usr/include/stdc-predef.h
+/usr/include/stdint.h
+/usr/include/stdio_ext.h
+/usr/include/stdio.h
+/usr/include/stdlib.h
+/usr/include/unistd.h
+bin
+dish
+files
+include
+makefile
+src
+test1.cmd
+test1.expected
+test2.cmd
+test2.expected
+test3.cmd
+test4.cmd
+test5.cmd
+test5.expected
+tests
+Child (14049) exitted -- success (0)
+Fri Sep 27 14:37:08 EDT 2019
+Child (14050) exitted -- success (0)
+What a great script!
+Child (14051) exitted -- success (0)
+[1]  Done           14048

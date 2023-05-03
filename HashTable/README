@@ -1,0 +1,49 @@
+****************************************************
+Rajbir Deol     0918139
+Phone List
+08/07/2016
+****************************************************
+
+This program hashes phones
+
+************
+Compilation
+************
+Makefile makes 2 executable called A2runnable and test.
+
+
+***********************
+Running the program(s)
+***********************
+To run the menu driven program type in the following into cmd
+    ./bin/A2runnable docs/data/data1.txt
+
+Essentially a test file containing a numbers and names is needed, I have made 5
+different data files used to test the menu driven program, in the docs/data
+dir. File names: data(0-5).txt eg. data1.txt
+
+To run the hash table tester type in the following into cmd
+    ./bin/test
+
+
+*****************
+Known Limitations
+*****************
+Whenever user is asked to input a value, user should follow instructions as
+best as possible to avoid segmentation faults or other errors caused by
+scanf. For example, when asked menu option if user doesn't enter a number
+an infinite loop will continuously print menu options to the screen. Another
+an example is when asked to enter a number for entry or search, the number has
+to be 10 digits for the number to be found correctly, or segfault.
+
+When entering names to store, the name has to be less than 100 characters.
+
+When entering files to store, file has to be less than 99 characters,
+moreover, the file has to exist. Additionally, the last line in the file has
+to be a new line.
+
+**********
+References
+**********
+Used this to learn how to convert string to long long
+    http://www.techonthenet.com/c_language/standard_library_functions/stdlib_h/strtoll.php

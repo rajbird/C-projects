@@ -1,0 +1,18 @@
+To test the stack ADT, I ran three different test scenarios. The first test scenario
+tested functions individually using valid and NULL stack pointers. The second test 
+made a simple stack of 10 elements. I then tested each function using that stack. The 
+last test makes a stack with 17 elements, these elements were far more complex. I
+then added 3 more elements, individually, and then removed 7 elements. Printing out
+the stack after any major changes. I felt this thoroughly tested the program, for it 
+checked extreme values, tested the boundaries of function, tested each function 
+individually and with other functions.
+
+To test the maze solver I created 10 different mazes. The starting mazes are quite simple
+and don't meet the requirements to be 10 by 10. I used these mazes when I was still 
+working through the basics of solving a maze. At this point, I was printing out the 
+coordinates of the path, and not the maze with the path. Hence, I needed extremely simple
+mazes that I could easily check the coordinates of the path to be correct. Eventually, 
+I made mazes that were bigger, to test the overall capabilities and success of the maze 
+solver. Such as the 8th and 9th mazes, which are 100 by 101(I couldn't get exactly 100
+by 100). I also switched around the start and finishing points, making mazes where the
+start/finish points weren't on the outside walls.

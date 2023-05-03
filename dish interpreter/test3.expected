@@ -1,0 +1,18 @@
+SHELL PID 18860
+Hola, esta es la prueba 3
+Child (18861) exitted -- success (0)
+SHELL PID 18860
+Hola, esta es la prueba 3
+Child (18861) exitted -- success (0)
+111the next command will fail
+Child (18867) exitted -- success (0)
+rajbird  pts/10       2019-09-27 13:34 (10.131.0.171)
+Child (18868) exitted -- success (0)
+ 14:50:27 up 67 days,  1:38, 22 users,  load average: 1.51, 1.91, 1.98
+Child (18869) exitted -- success (0)
+/home/undergrad/0/rajbird
+language Spanish
+Child (18870) exitted -- success (0)
+error: globbing error!
+Failure executing 'test3.cmd' line 11:
+    ls '-a' 'goosecute*'

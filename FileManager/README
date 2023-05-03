@@ -1,0 +1,65 @@
+****************************************************
+Rajbir Deol     0918139
+File Manager
+08/07/2016
+****************************************************
+
+Creates a file manager in C
+
+************
+Compilation
+************
+Makefile makes 2 executable called A3runnable and test.
+
+
+***********************
+Running the program(s)
+***********************
+To run the menu driven program type in the following into cmd
+    ./bin/A3runnable test
+
+The test folder contains the following
+	test/dc
+	test/dc/copy.c
+	test/dc/starfire.h
+	test/fav.txt
+	test/marvel
+	test/marvel/copy.c
+	test/marvel/storm.h
+	test/x
+
+To run the binTree tester type in the following into cmd
+    ./bin/test
+
+
+*****************
+Known Limitations
+*****************
+Whenever user is asked to input a value, user should follow instructions as
+best as possible to avoid segmentation faults or other errors caused by
+scanf. For example, when asked menu option if user doesn't enter a number
+an infinite loop will continuously print menu options to the screen.
+
+When entering file names to, try to follow character limitations.
+
+Cannot perform operations on directory if the directory has files/folders
+inside of it.
+
+**************
+Design Choices
+**************
+When user is asked to supply a file name, they are given 3 chances to give
+a valid file name. But when user is asked to give a directory name they
+only get one chance.
+
+**********
+References
+**********
+Used to learn how to print level order
+	http://www.geeksforgeeks.org/level-order-tree-traversal/
+
+Used to deal with dirent.h and sys/types.h
+	http://pubs.opengroup.org/onlinepubs/007908775/xsh/dirent.h.html
+
+Used to replace substring with another string
+	http://www.linuxquestions.org/questions/programming-9/replace-a-substring-with-another-string-in-c-170076/

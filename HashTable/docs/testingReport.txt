@@ -1,0 +1,28 @@
+************
+Rajbir Deol 
+0918139
+************
+______________
+TESTING REPORT
+
+
+To test the hash ADT, I create an array that stored randomly generated numbers. I then
+passed those numbers in as keys, and a string as the value to store in a hash table. This
+tested the create, insert and hash functions. Using the hash table with the stored values
+I tested the other functions. Additionally, I tested the functions by passing NULL values.
+
+In the hash function I generate the hash table index, by taking the keys mod with the 
+length of the hash table. For example, if the key = 30 and length of the hash table = 4, 
+then the index generated = 2. To deal with collisions I created a modified linear probing
+method. But instead of only checking to the right, I check if a position is open to the left
+and right of an index generated. If no position is available I add 3 to the index generated
+to check from that position onwards. For example, if the index value is 4, I would check if 
+there are any available spots in index positions 3 and 5. If there isn't, the check is then 
+done from index position 7.
+
+To test the menu driven program I created 5 different data files, with varying pieces of data.
+The first 2 files are quite simple and don't meet the requirements to have more than 20 lines.
+I used these files when I was still working through the basics operations of the menu program.
+At this point, I was debugging and making sure each function did what it was supposed to. 
+Eventually, I made files that were longer, to test the overall capabilities and success of the
+of the program. 

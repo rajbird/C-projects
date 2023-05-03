@@ -1,0 +1,43 @@
+****************************************************
+Rajbir Deol
+Maze Solver
+10/06/16
+****************************************************
+
+
+************
+Compilation
+************
+Makefile makes 2 executable called A1runnable and test.
+
+
+***********************
+Running the program(s)
+***********************
+To run the maze solver type in the following into cmd
+    ./bin/A1runnable docs/maps/map9.txt
+
+Essentially a test file containing a map is needed, I have made 10 
+different map files used to test the maze solver, in the docs/mazes
+dir. File names: map(0-9).txt eg. map3.txt
+
+To run the stack tester type in the following into cmd
+    ./bin/test
+
+
+*****************
+Known Limitations
+*****************
+The file containing the maze should only contain the maze, there
+cannot be any new lines after the maze. If there are the maze
+the solver will not be able to print out the maze solution.
+
+Secondly, each maze must contain a start and finish character,
+otherwise, there will be a segmentation fault.
+
+
+**********
+References
+**********
+Used these slides on stacks, and their implementations
+    http://courses.cs.washington.edu/courses/cse373/02wi/slides/BinSortEtc/sld024.htm

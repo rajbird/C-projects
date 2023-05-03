@@ -1,0 +1,15 @@
+SHELL PID 9957
+Bonjour c'est le test 1
+Child (9958) exitted -- success (0)
+-rw-r--r-- 1 rajbird undergrad 4324 Sep 27 14:08 cap.hero
+-rw-r--r-- 1 rajbird undergrad    0 Sep 27 12:48 capmarvel.hero
+-rw-r--r-- 1 rajbird undergrad    0 Sep 27 13:16 msmarvel.hero
+-rw-r--r-- 1 rajbird undergrad    0 Sep 27 12:48 spidey.hero
+brw-rw---- 1 root disk 8, 0 Jul 22 13:11 /dev/sda
+brw-rw---- 1 root disk 8, 1 Jul 22 13:11 /dev/sda1
+brw-rw---- 1 root disk 8, 2 Jul 22 13:11 /dev/sda2
+/home/undergrad/0/rajbird/3050
+60: 2 2 3 5
+Child (9963) exitted -- success (0)
+Au revoir language: french
+Child (9964) exitted -- success (0)

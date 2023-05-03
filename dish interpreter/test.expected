@@ -1,0 +1,86 @@
+SHELL PID 25140
+Ciao, questo è il test 4
+Child (25141) exitted -- success (0)
+rpc2portma
+rpc2portma
+tempo		526
+venus		243
+codasrv		2
+postgresql
+support		1
+files/cap.hero
+files/capmarvel.hero
+files/msmarvel.hero
+files/spidey.hero
+-rw-r--r-- 1 rajbird undergrad 4324 Sep 27 14:08 files/cap.hero
+-rw-r--r-- 1 rajbird undergrad    0 Sep 27 12:48 files/capmarvel.hero
+11
+11221374
+124
+154
+1687
+21345
+365
+4447
+4685760
+4687644
+47687465
+53
+666
+7
+794
+8764
+89879784
+987843
+Child (25152) exitted -- success (0)
+running a cd .. next, then printing the directory
+Child (25153) exitted -- success (0)
+/home/undergrad/0/rajbird/3050
+[1] 25154
+SHELL PID 25140
+Ciao, questo è il test 4
+Child (25141) exitted -- success (0)
+rpc2portma
+rpc2portma
+tempo		526
+venus		243
+codasrv		2
+postgresql
+support		1
+files/cap.hero
+files/capmarvel.hero
+files/msmarvel.hero
+files/spidey.hero
+-rw-r--r-- 1 rajbird undergrad 4324 Sep 27 14:08 files/cap.hero
+-rw-r--r-- 1 rajbird undergrad    0 Sep 27 12:48 files/capmarvel.hero
+11
+11221374
+124
+154
+1687
+21345
+365
+4447
+4685760
+4687644
+47687465
+53
+666
+7
+794
+8764
+89879784
+987843
+Child (25152) exitted -- success (0)
+running a cd .. next, then printing the directory
+Child (25153) exitted -- success (0)
+/home/undergrad/0/rajbird/3050
+brw-rw---- 1 root disk 8, 1 Jul 22 13:11 /dev/sda1
+brw-rw---- 1 root disk 8, 2 Jul 22 13:11 /dev/sda2
+language italian
+Child (25156) exitted -- success (0)
+[1]  Exit 65280       25154
+brw-rw---- 1 root disk 8, 1 Jul 22 13:11 /dev/sda1
+brw-rw---- 1 root disk 8, 2 Jul 22 13:11 /dev/sda2
+language italian
+Child (25158) exitted -- success (0)

@@ -1,0 +1,21 @@
+************
+Rajbir Deol 
+0918139
+************
+______________
+TESTING REPORT
+
+
+To test the binTree ADT, I created an array with 5 numbers, and added them into the tree
+to get specific inOrder print. When that worked I created an array that stored randomly 
+generated numbers. Stored those into the tree, since I was printing the tree inOrder and
+levelOrder after any major changes to the tree, it was obvious when the tree had a mistake
+and how to fix it. I then tested each of the functions by passing in NULL values.
+
+To test the menu driven program I created a folder(test) in the base directory (DeolRajbirA3), 
+that I would pass into the program. Initially I tested each operation individually, by ensuring 
+the test folder looked like this test/base/file.c, test/file.c and test/other.c. This allowed me
+to test with duplicates, subdirectories, file that exists and file that does not exist. When each 
+operation worked on their own, I added them to the menuProgram. Then when each operation worked
+individually, I tested them again as the BinTree was getting changed by the other functions. 
+This is when I was able to catch memory issues.  
