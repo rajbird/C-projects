@@ -1,0 +1,29 @@
+****************************************************
+Rajbir Deol
+Rogue +
+13/03/16
+****************************************************
+
+
+************
+Compilation
+************
+makefile
+
+******
+Usage
+******
+
+./a.out <datafile>
+Then rooms are printed only if window size is 44X99, then user is free to move the hero using w,a,s,d.
+Certain messages have a getch() following them, be aware. An example of that is quitting, quitting will
+tell you, and print that you quit, the gold amount collected, items in inventory and then it will end
+ncurses and free memory.
+
+*****************
+Known Limitations
+*****************
+
+Game will not commence if screen size is less than 4$X99. Any malloc fail will cause weird things.
+If the data file is not formatted correctly, compiling will cause memory problem. To fix, fix the
+data file. If player is on door they can walk on walls, and if door is beyond
